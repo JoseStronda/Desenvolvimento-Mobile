@@ -1,0 +1,62 @@
+<ion-content>
+    <div class="">
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>
+                    Cadastre-se
+                </ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-item>
+                    <ion-label position="floating">
+                        Nome
+                    </ion-label>
+                    <ion-input inputmode="text" placeholder="Exemplo: Chusse">
+                    </ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label position="floating">
+                        Email
+                    </ion-label>
+                    <ion-input inputmode="text" type="email" placeholder="Exemplo: bekah@mail.com">
+                    </ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label position="floating">
+                        Senha
+                    </ion-label>
+                    <ion-input inputmode="text" type="password" placeholder="Exemplo: 7865423.SKAoas">
+                    </ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label position="floating">
+                        Confirmar Senha
+                    </ion-label>
+                    <ion-input inputmode="text" type="password" placeholder="Redigite a mesma senha">
+                    </ion-input>
+                </ion-item>
+                <!--<ion-item>
+                  <ion-label position="floating">
+                      Data de nascimento </ion-label>
+                  <ion-input inputmode="text" type="date">
+                  </ion-input>
+              </ion-item>-->
+                <ion-item>
+                    <ion-label position='floating'>Data de Nascimento</ion-label>
+                    <ion-datetime mode='ios' displayFormat="MM/DD/YY" placeholder="Nascimento"></ion-datetime>
+                </ion-item>
+                <ion-item>
+                    <ion-checkbox color='secondary' slot='start' mode='ios'>
+                    </ion-checkbox>
+                    <ion-label>
+                        I'm Not a Robot
+                    </ion-label>
+                    <ion-img src="../assets/img/a.png" class='captcha'></ion-img>
+                </ion-item>
+                <ion-button color='success' size='full' shape="round" class="space">
+                    Registre-se
+                </ion-button>
+            </ion-card-content>
+        </ion-card>
+    </div>
+</ion-content>
